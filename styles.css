@@ -1,0 +1,62 @@
+body {
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+    box-sizing: border-box;   
+}
+
+.wrapper {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 75% 15%;
+    height: 100vh;
+    border: .25rem black solid;
+
+}
+
+
+.header h1 {
+    font: 2em cursive;
+    text-align: center;
+}
+
+.mainbox {
+    display: grid;
+    grid-template-columns: 1fr 75% 1fr;
+}
+
+.box2 {
+    background-color: white;
+    border:1px solid black;
+    border-radius: 1%;
+}
+
+
+.btn {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 25px;
+    font-size: 1.1em;
+}
+
+.footer div {
+    padding: 10px;     
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.flex-row {
+    display: flex;
+  
+}
+
+.pixel {
+    background-color:white;
+    flex: 1;
+}
